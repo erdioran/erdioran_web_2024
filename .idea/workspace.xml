@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9ca43f-1b41-451b-9dc9-e2b56dacd75c" name="Changes" comment="" />
+    <list default="true" id="2e9ca43f-1b41-451b-9dc9-e2b56dacd75c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/ForgotPasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/ForgotPasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +26,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "erdioran"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="b04d06ec-6bd4-46e0-8b1d-9d1679b196a3" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/erdioran/erdioran_2024.git",
+    "accountId": "b04d06ec-6bd4-46e0-8b1d-9d1679b196a3"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,6 +51,7 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2lekVNrqHPyZcC9cfGNSDoys59M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +60,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/login-tests.xml.executor": "Debug",
+    "TestNG./Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/run-all.xml.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/erdioran/IdeaProjects/kariyer_erdioran/src/test/java/objectRepository",
     "project.structure.last.edited": "Project",
@@ -60,7 +89,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.succesLogin">
+  <component name="RunManager" selected="TestNG./Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/run-all.xml">
     <configuration name="LoginTests.succesLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="kariyer_erdioran" />
       <extension name="coverage">
@@ -89,10 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/run-all.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="kariyer_erdioran" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuite/run-all.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.succesLogin" />
+        <item itemvalue="TestNG./Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/run-all.xml" />
         <item itemvalue="TestNG./Users/erdioran/IdeaProjects/kariyer_erdioran/testSuite/login-tests.xml" />
+        <item itemvalue="TestNG.LoginTests.succesLogin" />
       </list>
     </recent_temporary>
   </component>

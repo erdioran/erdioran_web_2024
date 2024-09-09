@@ -27,10 +27,13 @@ public abstract class BaseTest {
                 result.getTestClass().getName());
         String nodeName =
                 StringUtils.isNotBlank(result.getMethod().getDescription()) ? result.getMethod().getDescription() : method.getName();
-//        ExtentTest node = ExtentTestManager.getTest().createNode(nodeName);
- //       ExtentTestManager.setNode(node);
-   //     ExtentTestManager.info("Test Started");
+        ExtentTest node = ExtentTestManager.getTest().createNode(nodeName);
+        ExtentTestManager.setNode(node);
+        ExtentTestManager.info("Test Started");
+        String status = (String) context.getAttribute("previousTestStatus");
+        boolean isNewBrowserPerTest = Boolean.parseBoolean(ConfigManager.getConfigProperty("new.browser.per.test"));
         DriverManager.launchBrowser(ConfigManager.getBrowser());
+
     }
 
 
@@ -39,13 +42,9 @@ public abstract class BaseTest {
         if (!result.isSuccess()) {
             takeScreenShot("Failure screenshot");
             context.setAttribute("previousTestStatus", "failed");
+            DriverManager.quitDriver();
         } else {
             context.setAttribute("previousTestStatus", "passed");
-        }
-        boolean isNewBrowserPerTest = Boolean.parseBoolean(ConfigManager.getConfigProperty("new.browser.per.test"));
-        boolean isCleanUpTest = context.getName().contains("Clean");
-        if (!result.isSuccess() || isNewBrowserPerTest && !isCleanUpTest) {
-            DriverManager.quitDriver();
         }
     }
 

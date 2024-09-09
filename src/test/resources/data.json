@@ -4,8 +4,10 @@
     "login": "/aday/giris"
   },
   "userData": {
-    "TEST_USER_1_MAIL": "kariyertest2024@gmail.com",
-    "TEST_USER_1_PASSWORD": "Test123456-"
+    "TEST_USER_1_MAIL": "kariyertest20242024@hotmail.com",
+    "TEST_USER_1_PASSWORD": "Test123456-",
+    "TEST_USER_2_MAIL": "kariyertest2024@gmail.com",
+    "TEST_USER_2_PASSWORD": "Test123456-"
   }
 }
 

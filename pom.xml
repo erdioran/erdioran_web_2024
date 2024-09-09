@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <log4j.version>2.16.0</log4j.version>
-        <webDriverManager.version>5.6.2</webDriverManager.version>
+        <webDriverManager.version>5.9.2</webDriverManager.version>
         <jsonPath.version>2.6.0</jsonPath.version>
         <commons.io.version>2.11.0</commons.io.version>
         <commons-lang.version>2.6</commons-lang.version>
