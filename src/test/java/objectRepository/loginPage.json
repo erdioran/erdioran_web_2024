@@ -1,0 +1,34 @@
+{
+  "LOGIN_USERNAME": {
+    "value": "username",
+    "type": "id"
+  },
+  "LOGIN_PASSWORD": {
+    "value": "pass",
+    "type": "id"
+  },
+  "LOGIN_BUTTON": {
+    "value": "//button[@class='kds-action-button kds-primary kds-medium kds-purple kds-rounded-medium kds-font-medium kds-full-width']",
+    "type": "xpath"
+  },
+  "HOME_PROFILE_NAME": {
+    "value": "button[class='nav-link parent menu-button profile has-photo'] span[class='profile-name']",
+    "type": "cssSelector"
+  },
+  "LOGIN_VALIDATION_MESSAGE": {
+    "value": "validation-message-item",
+    "type": "className"
+  },
+  "LOGIN_SERVER_MESSAGE": {
+    "value": "server-return-message",
+    "type": "className"
+  },
+  "FORGOT_PASSWORD_BUTTON": {
+    "value": "forgottenPassLink",
+    "type": "id"
+  }
+}
+
+
+
+
